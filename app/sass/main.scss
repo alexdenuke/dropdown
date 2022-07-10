@@ -1,4 +1,18 @@
-body {
-	background-color: rgb(42, 207, 27);
-	display: flex;
+.dropdown {
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.dropdown__btn {
+	width: 300px;
+	height: 100px;
+	font-size: 20px;
+}
+.dropdown__body {
+	height: 300px;
+	width: 300px;
+	background-color: rgb(45, 112, 71);
+	display: none;
 }
