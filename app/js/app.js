@@ -8,5 +8,5 @@ btn.addEventListener("click", () => {
 
 window.addEventListener("click", (event) => {
   target = event.target;
-  target == btn || target == dropdown ? null : (style.display = "");
+  target !== btn && target !== dropdown && (style.display = "");
 });
